@@ -13,8 +13,12 @@ if [ ! -d "$INPUT_DIR" ]; then
 	echo "No valid input directory found!\nThe program will exit.."
 	exit 1;
 
-
 fi
+
+for file in $INPUT_DIR/*.vcf.gz; do
+	echo $file 
+
+done
 
 
 #  Create an output directory if it doesnt exist
