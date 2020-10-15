@@ -2,3 +2,6 @@ AlleleFreqs/*
 filltered/*
 PrivateSNPs/*
 POP_PRIVATE/*
+SNPEFF_ANNOTATIONS*/*
+snpEff*
+TEST_OUTPUT*
